@@ -24,7 +24,7 @@ public class MyRatingBar extends View {
         } else {
             this.proportion = proportion;
         }
-
+        invalidate();
     }
 
     public MyRatingBar(Context context) {
